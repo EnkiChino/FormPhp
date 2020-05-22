@@ -7,6 +7,63 @@ body{
 .border-orange{
     width: 100px;
     height: 2px;
-    color: #eb0000;
-    margin: 0 auto;
+    background-color: #ffa500;
+    margin: 0 auto 10px auto;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+#contact-form{
+    font-size: 20px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+.red{
+    color: #d82c2e;
+}
+.form-control{
+    height: 50px;
+    font-size: 18px;
+}
+.comments{
+    font-style: italic;
+    font-size: 15px;
+    color: #d82c2e;
+    height: 25px;
+}
+.infoRequired{
+    font-weight: bold;
+}
+input[type=submit]{
+    margin: 40px auto 0px auto;
+    display: block;
+}
+.button1{
+    border: 1px solid #ddd;
+    background-color: #ffa500;
+    color: #fff;
+    width:100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.4s ease-in 0s;
+}
+.button1:hover{
+    background-color: #ddd;
+    border-color: #ffa500;
+    color: #0069d6;
+}
+.thank-you{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
